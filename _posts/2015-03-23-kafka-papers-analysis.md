@@ -89,7 +89,7 @@ description:
 * Producer sum:1000W size:200 byte/per batch:1 50
 * Consumer batch:1000rows / 200 KB
 
-<img src="/public/img/kafka-paper/producer.png" width="50%" heigth="100%"/><img src="/public/img/consumer.png" width="50%" heigth="100%"/>
+<img src="/public/img/kafka-paper/producer.png" width="50%" heigth="100%"/><img src="/public/img/kafka-paper/consumer.png" width="50%" heigth="100%"/>
 
 
 #REFERENCES
