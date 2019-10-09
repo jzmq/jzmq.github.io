@@ -5,10 +5,9 @@ category: 技术
 tags:
 keywords:
 description:
-
 ---
 
-#Introduce
+### Introduce
 * Publish-subscribe messaging system
 	* Fast
 	* Scalable
@@ -18,15 +17,15 @@ description:
 	* <http://kafka.apache.org>
 
 
-#Architecture
+### Architecture
 
-* Too Simple <img src="/public/img/kafka-paper/architecture.png" width="50%" height="100%" align="right"/>
+* Too Simple <img src="/public/img/architecture.png" width="50%" height="100%" align="right"/>
 * Producer/Consumer
 * Broker 
 
 
-#Data Storage
-* Too Naive <img src="/public/img/kafka-paper/datalogic.png" height="100%" width="50%" align="right" />
+### Data Storage
+* Too Naive <img src="/public/img/datalogic.png" height="100%" width="50%" align="right" />
 * Topic 
 * Partition
 * A Segment file
@@ -35,9 +34,9 @@ description:
 
 
 
-#Unconventional
+### Unconventional
 
-* System Page Cache <img src="/public/img/kafka-paper/oldcopy.png" height="100%" width="50%" align="right"/>
+* System Page Cache <img src="/public/img/oldcopy.png" height="100%" width="50%" align="right"/>
 * Sendfile API/ Zero Copy 
 * Stateless broker
 * Rewind
@@ -46,7 +45,7 @@ description:
 
 
 
-#Distributed
+### Distributed
 * Producer
 * Consumer group
 
@@ -64,35 +63,35 @@ description:
 	 maintaining the consumption relationship and keeping track of the consumed offset of each partition
 	 ```
 
-#Replication
+### Replication
 
 * Strongly consistent replicas
 * Implementation
 * Handling Failures
 
-<img src="/public/img/kafka-paper/replicas.png" width="80%" align="center"/>
+<img src="/public/img/replicas.png" width="80%" align="center"/>
 
-#Key Algorithm
+### Key Algorithm
 
-<img src="/public/img/kafka-paper/rebalanceAlgo.png" align="center" width="70%" length="60%"/>
+<img src="/public/img/rebalanceAlgo.png" align="center" width="70%" length="60%"/>
 
 
-#Guarantees
+### Guarantees
 
 * At-least-onece delivery
 * Order guarantee
 * CRCs
 
 
-#Performance
+### Performance
 
 * Producer sum:1000W size:200 byte/per batch:1 50
 * Consumer batch:1000rows / 200 KB
 
-<img src="/public/img/kafka-paper/producer.png" width="50%" heigth="100%"/><img src="/public/img/kafka-paper/consumer.png" width="50%" heigth="100%"/>
+<img src="/public/img/producer.png" width="50%" heigth="100%"/><img src="/public/img/consumer.png" width="50%" heigth="100%"/>
 
 
-#REFERENCES
+### REFERENCES
 
 * InfoQ <http://www.infoq.com/cn/articles/apache-kafka>
 * LinkedIn <https://engineering.linkedin.com/kafka/intra-cluster-replication-apache-kafka>
